@@ -27,6 +27,10 @@ Tic Tac Toe is a two-player game where each player takes turns marking a space i
 
 ## Development Approach
 
+## Screenshots
+
+![screenshot](./assets/img/ticTacToeScreen.png)
+
 ### Importance of Vanilla JavaScript
 
 Using plain JavaScript, without third-party libraries:
@@ -91,4 +95,28 @@ For questions or assistance, refer to the documentation.
 
 ---
 
-Happy coding, and may the best Tic Tac Toe player win! Commit to core programming principles and clean code for professional development and growth as a skilled developer.
+## Code Examples
+
+```js
+   for (const item of winCombinations) {
+        let isWinner = true;
+        for (const num of item) {
+            if (!turnsId.has(`${num}`)) {
+                isWinner = false;
+                break;
+            }
+        }
+
+```
+
+## Status
+
+Project is: _finished_
+
+## Inspiration
+
+The repo of previous student, Youtube, ChatGPT.
+
+## Contact
+
+- [Emrah](https://github.com/emrahhko)
